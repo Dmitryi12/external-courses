@@ -1,10 +1,7 @@
-function typesofa (a) {
-	var b
-    if (isNaN(a)) {b = undefined}
-    else if (typeof a === "number") {(b = "number");
-} else if (typeof a === "string") {(b = "string");
-} else {(b = undefined)}
-  return (b)}
-module.exports=typesofa
-
-
+function dtypes (arg) {
+	var rslt
+  if (typeof arg === "number" && isNaN(arg)===false) {(rslt = "number");
+} else if (typeof arg === "string") {(rslt = "string");
+} else {(rslt = undefined)}
+  return (rslt)}
+module.exports=dtypes
