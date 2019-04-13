@@ -1,5 +1,6 @@
-var result = 0;
-var Calculator = {
+function calculator () { 
+var result=0;
+	return{
   add: function add(number) {
     if (!isNaN (number)){
     result+=number;}
@@ -11,7 +12,7 @@ var Calculator = {
     return subtract;
   },
   divide: function divide(number) {
-    if (!isNaN (number)&&number!==0){ 
+    if (!isNaN (number)&&number!==0){
     result/=number;}
     return divide;
   },
@@ -20,12 +21,14 @@ var Calculator = {
     result*=number;}
     return multiply;
   },
- reset: function reset() {
-    result=0
-    return result;
+ getResult: function rslt() {
+  	return result 
   },
-  getResult: function rslt() {
-    return result
+  reset: function reset() {
+    result=0
+    return reset;
   }
 }
+}
+var Calculator= new calculator();
 module.exports=Calculator
