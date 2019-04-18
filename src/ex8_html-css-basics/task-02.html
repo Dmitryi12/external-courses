@@ -1,0 +1,92 @@
+<!DOCTYPE HTML>
+<html>
+ <head>
+  <meta charset="utf-8">
+  <title>Kirushov</title>
+ </head>
+ <body>
+ 	<h1>HTML Basic</h1><hr>
+ 	
+ 	<h2>List</h2><hr>
+
+<h3>Ordered list</h3>
+<ol> 
+  <li>First element</li>
+  <li>Second element</li>
+  <li>Third element</li>
+</ol> 
+
+<h3>Unsorted list</h3>
+<ul>
+  <li>A</li>
+  <li>B</li>
+  <li>C</li>
+  <li>D</li>
+</ul>
+<div style="background-color:green">
+<h3>Despirition list</h3>
+<dl>
+  <dt>Name</dt>
+   <dd>Godzilla</dd>
+  <dt>Burn</dt>
+   <dd>1972</dd>
+  <dt>Burnplace</dt>
+   <dd>Japan</dd>
+</dl>
+<h3>Nested list</h3>
+ <ul>
+    <li>List one</li>
+    <li>List two</li>
+    <li>List three
+        <ul>
+            <li>Ссылка 1
+            <ul>
+            <li>Ссылка 1</li>
+            <li>Ссылка 2</li>
+        </ul>
+      </li>
+            <li>Ссылка 2</li>
+        </ul>
+    </li>
+    <li>List three</li>
+  </ul>
+</div>
+<h3>List with lint</h3>
+<ul>
+            <li><a href="https://www.google.com">Google</a></li>
+            <li><a href="https://yandex.ru">Yandex</a></li>
+            <li><a href="https://www.yahoo.com/">Yahoo</a></li>
+        </ul>
+<h3>Paragraph</h3>
+<p>
+  "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+</p>
+<p>
+  "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.<br> 
+  Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.<br>
+  Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?"
+</p>
+<h3>Table</h3>
+<table>
+ <tr><th>First name</th><th>Last name</th></tr>
+ <tr><td>John</td><td>Doe</td></tr>
+ <tr><td>Jane</td><td>Doe</td></tr>
+</table>
+<h3>Image</h3>
+<a><img src="Cat.jpg" 
+  width="200" height="260" alt="Cat"></a>
+<h3>Pre tag</h3>
+<pre>
+  var numbers = [];
+while (true) {
+  var value = prompt("Введите число", 0);
+  if (value === "" || value === null || isNaN(value)) break;
+  numbers.push(+value);
+}
+var sum = 0;
+for (var i = 0; i < numbers.length; i++) {
+  sum += numbers[i];
+}
+alert( sum )</pre>
+ </body>
+</html>
