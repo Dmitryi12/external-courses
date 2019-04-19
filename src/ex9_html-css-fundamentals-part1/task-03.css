@@ -1,0 +1,53 @@
+body {
+    margin: 150px;
+  }
+  
+  div {
+    display: block;
+    max-width: 215px;
+    border: 2px solid #adabab;
+    border-radius: 16px;
+    padding: 1px;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: 900;
+    color: #555555;
+    font-size: 20px;
+  }
+  
+   .outside {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 58px;
+    background-color: #e6e2e2;
+    border-radius: 13px;
+  }
+  
+  .text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    border-radius: 10px;
+    background: linear-gradient(0deg, #B1B1B1, #DEDEDE 50%) no-repeat;
+    width: 95%;
+    height: 85%;
+    box-shadow: 0 0 8px rgba(0,0,0,0.6);
+    font-family: Arial, sans-serif;
+    font-size: 12pt;
+    }
+  
+  .text::before {
+    content: url('star.svg');
+    position: absolute;
+    top: 15px;
+    left: 15px
+  }
+  
+  .text::after {
+    content: url('star.svg');
+    position: absolute;
+    top: 15px;
+    right: 15px;
+  }
