@@ -77,16 +77,12 @@
   width="200" height="260" alt="Cat"></a>
 <h3>Pre tag</h3>
 <pre>
-  var numbers = [];
-while (true) {
-  var value = prompt("Введите число", 0);
-  if (value === "" || value === null || isNaN(value)) break;
-  numbers.push(+value);
-}
-var sum = 0;
-for (var i = 0; i < numbers.length; i++) {
-  sum += numbers[i];
-}
-alert( sum )</pre>
+  function showStrng2InStrng1(strng1, strng2) {
+	var rslt;
+	if (~strng1.indexOf(strng2)) {rslt = true} 
+	else {rslt=false}
+	 return rslt
+	}
+ </pre>
  </body>
 </html>
