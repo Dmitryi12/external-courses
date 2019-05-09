@@ -4,4 +4,4 @@ function findInProto(strng, obj) {
 		if (!obj.hasOwnProperty (strng)) {rslt = obj[strng]}
 		return rslt
 	}
-module.exports=findInProto
+module.exports=findInProto 

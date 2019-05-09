@@ -1,5 +1,4 @@
 function getObjWhitoutProto(obj) {
-	var nullObj = Object.create(null);
-	return nullObj
+	return Object.create(null)
 }
 module.exports=getObjWhitoutProto
