@@ -1,5 +1,5 @@
 function likeSlice(array, begin=0, end=array.length) {
-  var resultArr=[]; var bgnArg=begin; var endArg=end;
+  var resultArr=[], bgnArg=begin, endArg=end;
     
     if(begin<0) {
       bgnArg=array.length+begin;
