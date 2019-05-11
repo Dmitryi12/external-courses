@@ -1,0 +1,15 @@
+.rgb {
+    background-color: rgba(255,0,255,0.5); /* Фиолетовый */ 
+    font-family: cursive;
+ }
+ @font-face {
+    font-family: 'Oswald', sans-serif;
+    src:url(https://fonts.googleapis.com/css?family=Oswald);
+.image {
+    background-image: url(https://bipbap.ru/wp-content/uploads/2017/12/0f92147ad2284aae418b40faf24dc68902960019_hq-640x456.jpg); /* Картинка*/
+	font-size: 200%;
+
+}
+.one{
+    background-color: RGB(39,189,223); /* Фиолетовый */
+  }
